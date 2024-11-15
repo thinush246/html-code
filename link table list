@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="https://github.com/">visit 
+        github</a><br>
+    
+    
+    <table border="5">
+        <tr>
+            <th>company</th>
+            <th>contact</th>
+            <th>country</th>
+        </tr>    
+        <tr>
+            <td>Thinush Tech</td>
+            <td>0774689059</td>
+            <td>Sri lanka</td>
+        </tr>    
+        <tr>
+            <td>Laxmi stores</td>
+            <td>0779032994</td>
+            <td>India</td>
+        </tr>    
+    </table>    
+
+
+</body>
+</html>
