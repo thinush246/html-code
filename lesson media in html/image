@@ -8,7 +8,7 @@
 <body>
     <h2>welcome to airport</h2>
     <center>
-    <ima src="aeroplane.jpeg" alt=plants width="500" height="500"
+    <image src="aeroplane.jpeg" alt=plants width="500" height="500"
     </center>
 </body>    
 </html>
