@@ -1,0 +1,18 @@
+<1DOCTYPE html>
+    <html>
+        <head>
+            <style>
+                #grad1 {
+                    height:400px;
+                    background-colour:red;
+                    background-image: linearGradient(to top right,red,orange,yellow,green,blue,indigo,violet);
+                }
+            </style>  
+            <body>  
+                <div id="grad1" style="text-align: center;"</div>
+            
+        </head>
+    </html>
+                 
+                
+            
