@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <title>Typoghraphy</title>
+    <style>
+        .text1 {
+            color: red;
+            font-size: 30px;
+        }
+
+        .p{
+            color: blueviolet;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+    
+    <body>
+        <h1>typoghraphy</h1>
+        <p class="text1">welcome to codingal</p>
+        <p class="p">welcome to codingal</p>
+    </body>    
+</html>    
