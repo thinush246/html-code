@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <header>
+            <h1>magic
+            </h1>
+        
+        </header>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <article>
+            <p>
+                magic, a concept used to describe a mode of rationality or way of thinking that looks to invisible forces to influence
+                events, effect change in material conditions, or present the illusion of change.
+                </p>
+        </article>        
+    </head>  
+    
+    <body>
+           
+
+     
+            <figure>      
+                <img src="magic.jpeg"/>
+                <figcaption>a cute dog.</figcaption>
+            </figure>     
+            <audio controls>
+                <source src="dog-barking-70772.mp3" type="audio/mp3">
+            </audio>    
+            
+            <embed src="mag.gif"/>
+        </main>    
+
+        <footer>
+            <p>contact me on 774689059</p>
+        </footer>    
+    </body>
+</html>
