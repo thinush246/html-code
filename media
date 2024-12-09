@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>  
+    
+    <body>
+        <header>
+            <h1>ACP media</h1>
+            
+        </header>    
+        <figure>
+            <img src="wave.jpeg" />
+           
+        </figure>
+        <audio controls>
+            <source src="dog-barking-70772.mp3" type="audio/mp3">
+        </audio>
+        <video src="Dog_gif.gif" controls></video>
+        <embed src="Dog_gif.gif" />
+        </main>
+        
+        <footer>
+            <p>contact me on 774689059</p>
+        </footer>
+        </body>
+        
+        </html>
