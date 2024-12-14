@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style4.css" rel="stylesheet" type="text/css">
+    </head>    
+    <body>
+        <h2>float right</h2>
+        <p>In this example,the image will float to the right in the paraghraph,and the text in the paraghraph will wrap around the image</p>
+        <p>
+        
+            <img id="flowerRight" src="flower.jpeg" alt="flower" style="width:100px;height:100px;">
+        
+            <img id="flowerLeft" src="flower.jpeg" alt="flower" style="width:100px;height:100px;">
+        
+            This is a dummy content used to understand float property
+        
+        </p>
