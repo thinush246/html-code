@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>CSS Box model example</title>
+        <link href="style3.css" rel="stylesheet" type="text/css">
+    </head>    
+    <body>
+        <h1>Box model example</h1>
+        <hr>
+        
+        <p class="example1">My contant example 1</p>
+        <p class="example2">My contant example 2</p>
+    </body>
+</html>        
