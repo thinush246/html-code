@@ -1,0 +1,31 @@
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width">
+
+<title>replit</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+
+</script>
+
+</head>
+<body>
+    <div class="continer-fluid">
+        <h1>Large grid</h1>
+        <p>dummy data</p>
+        <p>Resize the browser window to see the effect</p>
+        <div class="row">
+            <div class="co1-lg-4" style="background-color: yellow;">
+              oodummy
+            </div>    
+            <div class="co1-lg-8" style="background-color:pink;">
+                dummy
+            </div>
+        </div>
+    </div>      
+</body>
+</html>      
