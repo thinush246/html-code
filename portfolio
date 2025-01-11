@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+<title>Bootstrap Example</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head><div id="list-example" class="list-group">
+
+    <a class="list-group-item list-group-item-action" href="#list-item-1">Item 1</a>
+
+    <a class="list-group-item list-group-item-action" href="#list-item-2">Item 2</a>
+
+    <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
+
+    <a class="list-group-item list-group-item-action" href="#list-item-4">Item 4</a>
+
+</div>
+
+<div data-bs-spy="scroll" data-bs-target="#list-example" data-bs-offset="0" class="scrollspy-
+
+example" tabindex="0">
+
+    <h4 id="list-item-1">Item 1</h4>
+
+    <p>...The Lego Group began in the workshop of Ole Kirk Christiansen (1891–1958), a carpenter from Billund, Denmark, who began
+    making wooden toys in 1932.[7][8] In 1934, his company came to be called "Lego", derived from the Danish phrase leg godt
+    [lɑjˀ ˈkʌt],[9][10] which means "play well".[11] In 1947, Lego expanded to begin producing plastic toys.[12] In 1949 the
+    business began producing, among other new products, an early version of the now familiar interlocking bricks, calling
+    them "Automatic Binding Bricks". These bricks were based on the Kiddicraft Self-Locking Bricks, invented by Hilary Page
+    in 1939 and patented in the United Kingdom in 1940[13] before being displayed at the 1947 Earl's Court Toy Fair.[14]
+    Lego had received a sample of the Kiddicraft bricks from the supplier of an injection-molding machine that it
+    purchased.[15][16][17][18] The bricks, originally manufactured from cellulose acetate,[19] were a development of the
+    traditional stackable wooden blocks of the time.[12]..</p>
+    </div>
+</html>
