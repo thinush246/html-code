@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Shopping List App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        h1 {
+            font-size: 32px;
+        }
+
+        input {
+            padding: 8px;
+            width: 200px;
+        }
+
+        button {
+            padding: 8px 15px;
+            margin-left: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin-top: 20px;
+        }
+
+        li {
+            font-size: 18px;
+            padding: 5px 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Shopping List App</h1>
+    <input type="text" id="itemInput" placeholder="Enter item">
+    <button onclick="addItem()">Add</button>
+
+    <ul id="shoppingList"></ul>
+
+    <script>
+        function addItem() {
+            const input = document.getElementById("itemInput");
+            const itemText = input.value.trim();
+
+            if (itemText !== "") {
+                const li = document.createElement("li");
+                li.textContent = itemText;
+                document.getElementById("shoppingList").appendChild(li);
+                input.value = ""; // Clear input box
+            } else {
+                alert("Please enter an item!");
+            }
+        }
+    </script>
+
+</body>
+
+</html>
