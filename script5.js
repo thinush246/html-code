@@ -1,24 +1,12 @@
-function showTime() {
-    var date = new Date();
-    var h = date.getHours();
-    var m = date.getMinutes();
-    var s = date.getSeconds();
-    var session = "AM";
+window.onload = function displayDateAndDay() {
+    const dateObj = new Date();
+    const date = dateObj.getDate();
+    const month = dateObj.getMonth() + 1; // Months are 0-indexed
+    const year = dateObj.getFullYear();
 
-    if (h == 0) {
-        h = 12;
-    }
-        if (h > 12) {
-            h = h - 12;
-            session = "PM";
-        }
-        h = (h < 10) ? "0" + h : h;
-        m = (m < 10) ? "0" + m : m;
-        s = (s < 10) ? "0" + s : s;
-        
-        var time = h + ":" + m + ":" + s + " " + session;
-        document.getElementById("MyClockDisplay").innerText = time;
-        setTimeout(showTime, 1000);
-    }
-showTime();
-    
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    const today = days[dateObj.getDay()];
+
+    const calander = "Date: " + month + "/" + date + "/" + year + "  Day: " + today;
+    document.getElementById("Mycalander").innerText = calander;
+};
