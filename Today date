@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Today Calendar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        h1 {
+            color: #2c3e50;
+        }
+
+        p {
+            font-size: 24px;
+            color: #34495e;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Today's Date</h1>
+    <p id="calendar"></p>
+
+    <script>
+        const today = new Date();
+
+        const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+        const months = [
+            "January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
+        ];
+
+        const dayName = days[today.getDay()];
+        const date = today.getDate();
+        const monthName = months[today.getMonth()];
+        const year = today.getFullYear();
+
+        const fullDate = `${dayName}, ${date} ${monthName} ${year}`;
+
+        document.getElementById("calendar").innerText = fullDate;
+    </script>
+
+</body>
+
+</html>
