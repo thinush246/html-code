@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Storing Birthdays</title>
+</head>
+<body>
+  <h1>Raj's Friends' Birthdays</h1>
+  <p id="birthdayList"></p>
+
+  <script>
+    // Storing birthday dates in 5 different variables
+    let friend1 = "Ankit: March 5";
+    let friend2 = "Riya: June 12";
+    let friend3 = "Sahil: September 23";
+    let friend4 = "Neha: January 9";
+    let friend5 = "Arjun: December 15";
+
+    // Display the birthdays
+    document.getElementById("birthdayList").innerHTML =
+      friend1 + "<br>" +
+      friend2 + "<br>" +
+      friend3 + "<br>" +
+      friend4 + "<br>" +
+      friend5;
+  </script>
+</body>
+</html>
